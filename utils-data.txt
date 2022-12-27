@@ -1,0 +1,22 @@
+Instalações de pacotes adicionais:
+npm i --save @nestjs/core @nestjs/common rxjs reflect-metadata @nestjs/config
+
+
+######## EXTENSÕES #######
+
+EditorConfig for VS Code
+ESLint
+Prettier - Code formatter
+Prisma
+Prisma - Insider
+
+########## lugares pra mudar a porta ##########
+
+3000 => 3001
+5432 => 5430
+
+main.ts / .env / docker-compose.yml
+
+########## Criando o CRUD ##########
+
+nest g res <nome>
